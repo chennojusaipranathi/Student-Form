@@ -4,9 +4,20 @@ A form-based web application that performs Create and Update operations using JS
 
 ---
 
+## 📑 Table of Contents
+
+- Overview
+- Features
+- Benefits of using JsonPowerDB
+- Project Status
+- Key Highlights 
+- Technologies Used
+- Usage Example
+- Installation
+
 ## 🧾 Overview
 
-This project was developed as part of an interview selection process. It demonstrates how to build a dynamic form that interacts with a database using APIs.
+This project was demonstrates how to build a dynamic form that interacts with a database using APIs.
 
 The application uses Roll Number as the primary key to determine whether a record already exists. Based on this, it enables either Save (Create) or Update functionality.
 
@@ -23,6 +34,25 @@ The application uses Roll Number as the primary key to determine whether a recor
 - Auto-fetch data if record exists
 
 ---
+## 🚀 Benefits of using JsonPowerDB
+
+- Simple and fast REST API-based database
+- No need for complex SQL queries
+- Schema-free (flexible JSON structure)
+- High performance for real-time applications
+- Easy integration with frontend applications
+- Minimal setup and quick development## 🚀 Benefits of using JsonPowerDB
+- Simple and fast REST API-based database
+- No need for complex SQL queries
+- Schema-free (flexible JSON structure)
+- High performance for real-time applications
+- Easy integration with frontend applications
+- Minimal setup and quick development
+
+📊 Project Status
+
+Completed (Micro Project)
+
 
 ## 💡 Key Highlights (Important Points)
 
