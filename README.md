@@ -93,5 +93,5 @@ Completed (Micro Project)
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/chennojusaipranathi/Student-Form.git
+git clone https://github.com/chennojusaipranathi/Student-Form
 cd Student-Form
