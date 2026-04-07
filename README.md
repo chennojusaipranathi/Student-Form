@@ -64,4 +64,4 @@ The application uses Roll Number as the primary key to determine whether a recor
 
 ```bash
 git clone https://github.com/chennojusaipranathi/Student-Form.git
-cd student-enrollment-form-jpdb
+cd Student-Form
