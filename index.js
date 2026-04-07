@@ -91,6 +91,7 @@ function enableAll() {
 }
 function disableAll()
 {
+    $("#reset").prop("disabled", true);
     $("#fname").prop("disabled", true);
     $("#class").prop("disabled", true);
     $("#dob").prop("disabled", true);
