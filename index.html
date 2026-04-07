@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Student Registration Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    </head>
+    <body  onload="resetForm()">
+        <div style="margin: 4rem">
+            <h3 style="text-align: center; color: red; margin-bottom: 2rem;">Student Registration Form</h3>
+            <form method="get">
+                <div class="mb-3">
+                    <label for="rollNo" class="form-label">Roll No:</label>
+                    <input type="number" class="form-control" name="rollNo" placeholder="Please enter your Roll No"  id="rollNo" onchange="checkRoll()" >
+                </div>
+                <div class="mb-3">
+                    <label for="fname"class="form-label">Full Name:</label>
+                    <input type="text" class="form-control" name="fname"  placeholder="Please enter your Full Name"  id="fname" disabled="true">
+                </div>
+                 <div class="mb-3">
+                    <label for="class" class="form-label">Class:</label>
+                    <input type="number" class="form-control" name="class"  placeholder="Please enter your class number"  id="class" disabled="true">
+                </div>
+                <div class="mb-3">
+                    <label for="dob" class="form-label">Birth Date</label>
+                    <input type="date" class="form-control" name="dob" id="dob" disabled="true">
+                </div>
+                <div class="mb-3">
+                    <label for="address"class="form-label">Address</label>
+                    <input type="text" class="form-control" name="address"  placeholder="Please enter your Address"  id="address" disabled="true">
+                </div>
+                <div class="mb-3">
+                    <label for="enroll" class="form-label">Enroll-Date</label>
+                    <input type="date" class="form-control" name="enroll"  placeholder="Please enter your Enroll"  id="enroll" disabled="true">
+                </div>
+                <div style="text-align: center">
+                    <button type="button" id="save" class="btn save btn-primary" disabled="true" onclick="saveForm()">Save</button>&nbsp;&nbsp;
+                    <button type="button" id="update" class="btn update btn-primary" disabled="true" onclick="updateForm()">Update</button>&nbsp;&nbsp;
+                    <button  type="button" id="reset"  class="btn reset btn-primary" disabled="true" onclick="resetForm()">Reset</button>
+                </div>
+            </form>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="https://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
